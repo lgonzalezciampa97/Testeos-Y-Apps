@@ -1,0 +1,195 @@
+package com.loto.sorteo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Loader {
+	
+	public static Map<Integer, Integer> lotoNumbers = new HashMap<>();
+	public static Map<Integer, Integer> lotoJacks = new HashMap<>();
+	
+	public static Map<Integer, Integer> loadNumbers() {
+
+		// Adding numbers
+		lotoNumbers.put(0, 20);
+		lotoNumbers.put(1, 33);
+		lotoNumbers.put(2, 32);
+		lotoNumbers.put(3, 31);
+		lotoNumbers.put(4, 11);
+		lotoNumbers.put(5, 22);
+		lotoNumbers.put(6, 7);
+		lotoNumbers.put(7, 13);
+		lotoNumbers.put(8, 24);
+		lotoNumbers.put(9, 28);
+		lotoNumbers.put(10, 34);
+		lotoNumbers.put(11, 15);
+		lotoNumbers.put(12, 37);
+		lotoNumbers.put(13, 38);
+		lotoNumbers.put(14, 28);
+		lotoNumbers.put(15, 9);
+		lotoNumbers.put(16, 36);
+		lotoNumbers.put(17, 32);
+		lotoNumbers.put(18, 37);
+		lotoNumbers.put(19, 35);
+		lotoNumbers.put(20, 8);
+		lotoNumbers.put(21, 9);
+		lotoNumbers.put(22, 7);
+		lotoNumbers.put(23, 19);
+		lotoNumbers.put(24, 19);
+		lotoNumbers.put(25, 17);
+		lotoNumbers.put(26, 24);
+		lotoNumbers.put(27, 27);
+		lotoNumbers.put(28, 26);
+		lotoNumbers.put(29, 6);
+		lotoNumbers.put(30, 26);
+		lotoNumbers.put(31, 5);
+		lotoNumbers.put(32, 37);
+		lotoNumbers.put(33, 14);
+		lotoNumbers.put(34, 34);
+		lotoNumbers.put(35, 19);
+		lotoNumbers.put(36, 7);
+		lotoNumbers.put(37, 31);
+		lotoNumbers.put(38, 28);
+		lotoNumbers.put(39, 35);
+		lotoNumbers.put(40, 39);
+		lotoNumbers.put(41, 41);
+		lotoNumbers.put(42, 12);
+		lotoNumbers.put(43, 14);
+		lotoNumbers.put(44, 15);
+		lotoNumbers.put(45, 21);
+		lotoNumbers.put(46, 30);
+		lotoNumbers.put(47, 9);
+		lotoNumbers.put(48, 10);
+		lotoNumbers.put(49, 17);
+		lotoNumbers.put(50, 18);
+		lotoNumbers.put(51, 21);
+		lotoNumbers.put(52, 22);
+		lotoNumbers.put(53, 25);
+		lotoNumbers.put(54, 1);
+		lotoNumbers.put(55, 8);
+		lotoNumbers.put(56, 16);
+		lotoNumbers.put(57, 21);
+		lotoNumbers.put(58, 29);
+		lotoNumbers.put(59, 38);
+		lotoNumbers.put(60, 7);
+		lotoNumbers.put(61, 14);
+		lotoNumbers.put(62, 26);
+		lotoNumbers.put(63, 32);
+		lotoNumbers.put(64, 36);
+		lotoNumbers.put(65, 37);
+		lotoNumbers.put(66, 0);
+		lotoNumbers.put(67, 1);
+		lotoNumbers.put(68, 10);
+		lotoNumbers.put(69, 12);
+		lotoNumbers.put(70, 28);
+		lotoNumbers.put(71, 32);
+		lotoNumbers.put(72, 5);
+		lotoNumbers.put(73, 9);
+		lotoNumbers.put(74, 12);
+		lotoNumbers.put(75, 16);
+		lotoNumbers.put(76, 18);
+		lotoNumbers.put(77, 21);
+		lotoNumbers.put(78, 15);
+		lotoNumbers.put(79, 27);
+		lotoNumbers.put(80, 28);
+		lotoNumbers.put(81, 29);
+		lotoNumbers.put(82, 31);
+		lotoNumbers.put(83, 37);
+		lotoNumbers.put(84, 1);
+		lotoNumbers.put(85, 8);
+		lotoNumbers.put(86, 13);
+		lotoNumbers.put(87, 28);
+		lotoNumbers.put(88, 30);
+		lotoNumbers.put(89, 36);
+		lotoNumbers.put(90, 3);
+		lotoNumbers.put(91, 6);
+		lotoNumbers.put(92, 14);
+		lotoNumbers.put(93, 23);
+		lotoNumbers.put(94, 29);
+		lotoNumbers.put(95, 35);
+		lotoNumbers.put(96, 0);
+		lotoNumbers.put(97, 3);
+		lotoNumbers.put(98, 20);
+		lotoNumbers.put(99, 32);
+		lotoNumbers.put(100, 33);
+		lotoNumbers.put(101, 37);
+		lotoNumbers.put(102, 4);
+		lotoNumbers.put(103, 5);
+		lotoNumbers.put(104, 6);
+		lotoNumbers.put(105, 8);
+		lotoNumbers.put(106, 15);
+		lotoNumbers.put(107, 29);
+		lotoNumbers.put(108, 2);
+		lotoNumbers.put(109, 40);
+		lotoNumbers.put(110, 0);
+		lotoNumbers.put(111, 14);
+		lotoNumbers.put(112, 23);
+		lotoNumbers.put(113, 34);
+		lotoNumbers.put(114, 41);
+		lotoNumbers.put(115, 24);
+		lotoNumbers.put(116, 5);
+		lotoNumbers.put(117, 1);
+		lotoNumbers.put(118, 39);
+		lotoNumbers.put(119, 23);
+		lotoNumbers.put(120, 37);
+		lotoNumbers.put(121, 13);
+		lotoNumbers.put(122, 13);
+		lotoNumbers.put(123, 24);
+		lotoNumbers.put(124, 9);
+		lotoNumbers.put(125, 28);
+		lotoNumbers.put(126, 10);
+		lotoNumbers.put(127, 38);
+
+		return lotoNumbers;
+	}
+
+	public static Map<Integer, Integer> loadJacks() {
+
+		// Adding Jacks
+		lotoJacks.put(0, 4);
+		lotoJacks.put(1, 5);
+		lotoJacks.put(2, 4);
+		lotoJacks.put(3, 0);
+		lotoJacks.put(4, 8);
+		lotoJacks.put(5, 6);
+		lotoJacks.put(6, 4);
+		lotoJacks.put(7, 1);
+		lotoJacks.put(8, 3);
+		lotoJacks.put(9, 2);
+		lotoJacks.put(10, 7);
+		lotoJacks.put(11, 8);
+		lotoJacks.put(11, 7);
+		lotoJacks.put(12, 2);
+		lotoJacks.put(13, 3);
+		lotoJacks.put(14, 5);
+		lotoJacks.put(15, 4);
+		lotoJacks.put(16, 8);
+		lotoJacks.put(17, 8);
+		lotoJacks.put(18, 0);
+		lotoJacks.put(19, 0);
+		lotoJacks.put(20, 3);
+		lotoJacks.put(21, 9);
+		lotoJacks.put(22, 4);
+		lotoJacks.put(23, 2);
+		lotoJacks.put(24, 0);
+		lotoJacks.put(25, 0);
+		lotoJacks.put(26, 4);
+		lotoJacks.put(27, 3);
+		lotoJacks.put(28, 2);
+		lotoJacks.put(29, 5);
+		lotoJacks.put(30, 0);
+		lotoJacks.put(31, 2);
+		lotoJacks.put(32, 7);
+		lotoJacks.put(33, 3);
+		lotoJacks.put(34, 8);
+		lotoJacks.put(35, 2);
+		lotoJacks.put(36, 1);
+		lotoJacks.put(37, 3);
+		lotoJacks.put(38, 8);
+		lotoJacks.put(39, 8);
+		lotoJacks.put(40, 2);
+		
+		return lotoJacks;
+	}
+
+}
